@@ -235,7 +235,7 @@ export default function App() {
   };
 
   const generateMessage = (resi: string) => {
-    return encodeURIComponent(`Hallo Kami Dari J&T Lalan Grai Aini Paket Anda Telah Sampai dengan nomer resi ${resi}`);
+    return encodeURIComponent(`Hallo Kami Dari J&T Lalan Grai Aini Paket Anda Telah Sampai dengan nomer resi ${resi} Lakukan konfirmasi paket anda`);
   };
 
   const openWhatsApp = (contact: Contact) => {
